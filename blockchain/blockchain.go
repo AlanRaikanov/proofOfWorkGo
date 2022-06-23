@@ -22,8 +22,8 @@ type BlockChainIterator struct {
 
 func InitBlockChain() *BlockChain {
 	var lastHash []byte
-	var opts badger.Options
 
+	opts := badger.DefaultOptions("/tmp/blocks")
 	opts.Dir = dbPath
 	opts.ValueDir = dbPath
 
