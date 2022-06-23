@@ -19,9 +19,9 @@ import (
 // check the hash to see if it meets a set of requirements
 
 // Requirements:
-// The First few byets must contain 0s
+// The First few bytes must contain 0s
 
-const Difficulty = 12
+const Difficulty = 18
 
 type ProofOfWork struct {
 	Block  *Block
