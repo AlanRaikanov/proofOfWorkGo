@@ -47,6 +47,7 @@ func (pow *ProofOfWork) InitData(nonce int) []byte {
 		},
 		[]byte{},
 	)
+
 	return data
 }
 
